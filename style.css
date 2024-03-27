@@ -26,11 +26,8 @@
 .card{
     width: 90%;
     max-width: 870px;
-    /* background: linear-gradient(150deg, #00feba, #5b548a); */
-    /* background: url(Images/bg2.avif); */
     background: rgba(255, 255, 255, 0.5) url(Images/bg2.avif);
     color: #fff;
-    /* margin: 100px auto 0; */
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -38,7 +35,6 @@
 }
 
 .search-box{
-    /* border: 1px solid #fff; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -111,6 +107,7 @@
 .col img{
     width: 40px;
     margin-right: 10px;
+    filter: invert(100%);
 }
 
 .humidity, .wind{
@@ -137,10 +134,4 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    /* transition: width 2s, height 2s; */
 }
-
-/* .errorc{
-    width: 200px;
-    height: 50px;
-} */
